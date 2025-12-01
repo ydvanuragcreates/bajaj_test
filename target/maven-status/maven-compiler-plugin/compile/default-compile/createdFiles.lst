@@ -1,0 +1,5 @@
+com\bfhl\webhook\model\FinalSubmission.class
+com\bfhl\webhook\model\InitialRequest.class
+com\bfhl\webhook\model\WebhookResponse.class
+com\bfhl\webhook\runner\WebhookAutomationRunner.class
+com\bfhl\webhook\WebhookAutomationApplication.class
