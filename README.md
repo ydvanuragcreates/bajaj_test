@@ -98,8 +98,7 @@ Step 3: Submitting final query...
 
 ## Application Screenshots
 
-### Execution Flow - Part 1
-![Application Start and Initial Steps](screenshots/execution-flow-1.png)
+
 
 The application starts and executes the following steps:
 - **Step 1**: Sends initial request to generate webhook
@@ -109,8 +108,7 @@ The application starts and executes the following steps:
   - Last two digits: 90 (EVEN)
   - Selects appropriate SQL query
 
-### Execution Flow - Part 2
-![Final Submission and Completion](screenshots/execution-flow-2.png)
+
 
 The application completes the workflow:
 - **Step 3**: Submits final query to webhook endpoint
