@@ -121,6 +121,11 @@ The application completes the workflow:
   - Response Body: `{"success":true,"message":"Webhook processed successfully"}`
 - **Completion**: Automation flow completed successfully
 
+### Execution Flow - Part 3
+![Additional Execution Details](screenshots/execution-flow-3.png)
+
+Additional execution details and verification of successful completion.
+
 ## Architecture
 
 ### Components
