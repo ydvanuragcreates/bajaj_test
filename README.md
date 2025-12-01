@@ -96,6 +96,31 @@ Step 3: Submitting final query...
 === Automation Flow Completed Successfully ===
 ```
 
+## Application Screenshots
+
+### Execution Flow - Part 1
+![Application Start and Initial Steps](screenshots/execution-flow-1.png)
+
+The application starts and executes the following steps:
+- **Step 1**: Sends initial request to generate webhook
+  - Response Status: 200 OK
+  - Receives webhook URL and access token
+- **Step 2**: Analyzes registration number (22BCE7590)
+  - Last two digits: 90 (EVEN)
+  - Selects appropriate SQL query
+
+### Execution Flow - Part 2
+![Final Submission and Completion](screenshots/execution-flow-2.png)
+
+The application completes the workflow:
+- **Step 3**: Submits final query to webhook endpoint
+  - Webhook URL: `https://bfhldevapigw.healthrx.co.in/hiring/testWebhook/JAVA`
+  - Authorization header with access token
+  - SQL Query Length: 428 characters
+  - Response Status: 200 OK
+  - Response Body: `{"success":true,"message":"Webhook processed successfully"}`
+- **Completion**: Automation flow completed successfully
+
 ## Architecture
 
 ### Components
